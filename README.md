@@ -47,7 +47,7 @@ $("#reg_form").MValid({
 
 2.按钮用法
 $("#sendmsg").MValid({
-        type:'form', //类型 form 表单 button 按钮 ，只支持两种类型
+        type:'button', //类型 form 表单 button 按钮 ，只支持两种类型
         form:'#reg_form',//验证表单名字 ，如果 type 类型是form ，则不用配置
         desc:{
             mobile:{
