@@ -1,0 +1,18 @@
+.MValid_Toast{
+    height: 40px;
+    line-height:40px;
+    padding: 2px 8px;
+    font-size:16px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    border-radius: 10px;
+    max-width: 300px;
+    min-width: 100px;
+    word-wrap: break-word;
+    z-index: 99999;
+}
