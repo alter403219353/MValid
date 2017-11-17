@@ -6,6 +6,8 @@ JQUERY 验证表单扩展插件
 
 用法
 
+<pre>
+<code>
 1.表单用法
 
 $("#reg_form").MValid({
@@ -27,6 +29,7 @@ $("#reg_form").MValid({
         }
 }
 
+
 2.按钮用法
 $("#sendmsg").MValid({
         type:'form', //类型 form 表单 button 按钮 ，只支持两种类型
@@ -47,3 +50,6 @@ $("#sendmsg").MValid({
              //回调 event 元素jquery对象 , obj 元素原生对象 ,options 参数
         }
 }
+
+</code>
+</pre>
