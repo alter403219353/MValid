@@ -42,7 +42,7 @@ $("#reg_form").MValid({
         success:function (event,obj,options) {
             //回调 event 元素jquery对象 , obj 元素原生对象 ,options 参数
         }
-}
+ });
 
 
 2.按钮用法
@@ -64,7 +64,7 @@ $("#sendmsg").MValid({
         success:function (event,obj,options) {
              //回调 event 元素jquery对象 , obj 元素原生对象 ,options 参数
         }
-}
+ });
 
 </code>
 </pre>
