@@ -6,6 +6,7 @@ JQUERY 验证表单扩展插件
 
 用法
 
+```html
 <form class="reglis" id="reg_form">
     <div>
         <label>手机号</label><input type="tel" name="mobile" id="mobile" data-required="mobile" data-desc="mobile"  maxlength="11" placeholder="请输入手机号">
@@ -16,10 +17,12 @@ JQUERY 验证表单扩展插件
     </div>
     <button class="nexts">下一步</button>
 </form>
+```
 
 
 <pre>
 <code>
+
 1.表单用法
 
 $("#reg_form").MValid({
