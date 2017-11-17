@@ -2,6 +2,7 @@
  * @desc: 表单验证插件
  * @author: 牧尘
  * @qq: 403219353
+ * https://github.com/alter403219353/MValid/
  */
 $.fn.MValid = function(options) {
 
