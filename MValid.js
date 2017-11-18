@@ -97,6 +97,8 @@ $.fn.MValid = function(options) {
                         var pattern = options.desc[data_desc]['pattern'];
 
 
+                        var pattern_rule = null;
+
                         if( (Util.is_undefined(pattern['type']) === false && Util.is_undefined(pattern['rule']) === false)
                             || (Util.is_undefined(pattern['rule']) === false)
                         ){
@@ -106,7 +108,8 @@ $.fn.MValid = function(options) {
                             pattern_rule = ret.rule;
                         }
 
-                        if( Util.is_undefined(pattern['desc']['required']) === false){
+
+                        if( Util.is_undefined(pattern['desc']['required']) === false &&  Util.is_null(pattern_rule) === false){
                             var rule = val.match(pattern_rule);
 
                             if(Util.is_null(rule)){
