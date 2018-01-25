@@ -9,10 +9,10 @@ JQUERY 验证表单扩展插件
 ```html
 <form class="reglis" id="reg_form">
     <div>
-        <label>手机号</label><input type="tel" name="mobile" id="mobile" data-required="mobile" data-desc="mobile"  maxlength="11" placeholder="请输入手机号">
+        <label>手机号</label><input type="tel" name="mobile" id="mobile" data-required="true" data-desc="mobile"  maxlength="11" placeholder="请输入手机号">
     </div>
     <div>
-        <label>验证码</label><input class="srky" type="number" name="code" id="code"   data-required="code" data-desc="code"  placeholder="请输入验证码">
+        <label>验证码</label><input class="srky" type="number" name="code" id="code"   data-required="true" data-desc="code"  placeholder="请输入验证码">
         <input id="sendmsg" type="button" class="obtain" value="获取验证码" />
     </div>
     <button class="nexts">下一步</button>
